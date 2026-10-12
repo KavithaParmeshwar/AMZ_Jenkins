@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TC01_Suite">
+  <test thread-count="5" name="testng">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase09_AddProductToCart"/>
+      <!--
+	  <class name="smokesuit_project1.AmazonEnd2End.TestCase01_NewUserRegistration"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase02_LoginToAmazon"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase03_FailedLoginToAmazon"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase04_EditUserProfileDetails"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase05_SearchingProduct"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase06_ProductSearchingWithFilters"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase07_VerifyingProductsDetails"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase08_SortingProducts"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase13_AddCouponNOrderProduct"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase14_GoToPreviousOrderNRate"/>
+      -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuiteTesting">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase01_NewUserRegistration"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase02_LoginToAmazon"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase03_FailedLoginToAmazon"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase04_EditUserProfileDetails"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase05_SearchingProduct"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase06_ProductSearchingWithFilters"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase07_VerifyingProductsDetails"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase08_SortingProducts"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase09_AddProductToCart"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase10_UpdateNDeleteItemsFromCart"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase11_ValidatingCheckoutProcess"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase12_ValidateSelectPaymentOptions"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase15_ReachCartPageWithoutLogin"/>
+      <class name="smokesuit_project1.AmazonEnd2End.TestCase16_LoginToAmazonNLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
